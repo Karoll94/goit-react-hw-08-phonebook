@@ -1,0 +1,120 @@
+@import-normalize; /* bring in normalize.css styles */
+@import url(./components/Navigation/Navigation.module.css);
+@import url(./components/UserMenu/UserMenu.module.css);
+
+body {
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h2 {
+  color: rgb(238, 238, 238);
+  font-family: 'Jost', sans-serif;
+}
+h6 {
+  color: rgb(238, 238, 238);
+  font-family: 'Jost', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.list--item {
+  display: flex;
+  gap: 30px;
+  color: rgb(238, 238, 238);
+  list-style: none;
+  font-size: 16px;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  height: 40px;
+  align-items: center;
+  font-family: 'Jost', sans-serif;
+}
+.list--item button {
+  background-color: #573b8a;
+  border-color: #573b8a;
+  font-weight: bolder;
+  border-radius: 5px;
+  box-shadow: none;
+  border-style: solid;
+  color: white;
+  height: 35px;
+  font-family: 'Jost', sans-serif;
+}
+.add--button {
+  background-color: #573b8a;
+  margin: 30px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  font-weight: bolder;
+  border-radius: 5px;
+  font-family: 'Jost', sans-serif;
+  color: rgb(238, 238, 238);
+}
+.list--item p {
+  font-weight: bolder;
+  font-family: 'Jost', sans-serif;
+}
+
+.list--item__name {
+  font-weight: normal;
+  font-size: 14px;
+  width: 250px;
+  font-family: 'Jost', sans-serif;
+}
+
+.contact-list {
+  border: 1px chocolate;
+  padding-inline-end: 40px;
+  font-family: 'Jost', sans-serif;
+}
+
+.contacts--container {
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38')
+    no-repeat center/ cover;
+  margin-top: 10px;
+  font-family: 'Jost', sans-serif;
+}
+.contacts--title {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-family: 'Jost', sans-serif;
+  color: rgb(238, 238, 238);
+  margin-bottom: 10px;
+}
+input {
+  border-radius: 5px;
+  border-style: solid;
+  background-color: transparent;
+  font-family: 'Jost', sans-serif;
+  color: rgb(238, 238, 238);
+}
+
+.filter--label {
+  position: absolute;
+  z-index: -1;
+  top: 48.7%;
+  transform: translateY(-50%);
+  padding: 0 3px;
+  color: rgb(118, 118, 118);
+  font-size: 14px;
+  pointer-events: none;
+  transition: top 0.2s, font-size 0.2s;
+}
+
+
